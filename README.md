@@ -51,7 +51,7 @@
 
 
 <p>
-<img width="776" alt="VM image" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/f072cd7b-b547-4006-9ddb-ae6ba39c497e">
+<img width="776" height="154" alt="Image" src="https://github.com/user-attachments/assets/7266569d-0bc4-4a50-ab0e-1e1a6c50dcdb" />
 </p>
 <p>
 <p><strong>.</strong></p>
@@ -63,7 +63,7 @@
 <br />
 
 <p>
-<img width="736" alt="DC-vm" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/323e78b9-4e86-46e3-b021-6ac529ccb600">
+<img width="736" height="62" alt="Image" src="https://github.com/user-attachments/assets/d46c7fc1-57fb-43a0-b764-3b0b45e0c5fd" />
 </p>
 <p>
 </p>
@@ -75,7 +75,7 @@
 <h3>&#9313; Set the Domain Controller's Private IP to static </h3>
 
 -  Once the VM has been deployed, proceed to the VM overview page and select "Networking" on the left side. 
-<img width="692" alt="networking" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/a35e1aad-57e1-4c1c-9e4e-aefa4fcf31ea">
+<img width="692" height="397" alt="Image" src="https://github.com/user-attachments/assets/494bf159-75c7-43f1-99de-b2788ed7ad0e" />
 <br>
 <br>
 <br>
@@ -85,7 +85,7 @@
 <br>
 
 <p>
-<img width="518" alt="static" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/8629a747-9809-4329-859f-2d38896ec484">
+<img width="518" height="161" alt="Image" src="https://github.com/user-attachments/assets/69904514-c8c8-4d9d-a24d-46f405feb419" />
 </p>
 
 <br />
@@ -96,7 +96,7 @@
 <h3>&#9314; Create the client VM </h3>
 
 - Once again create a new VM and we'll name it Client-01. We'll select Windows 10 as the image and make sure to select at least 2 vcpus and 16 GiB memory.
-<img width="717" alt="VM 2 name " src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/a3005b2a-cc0a-49f6-8b9e-c6a594c2aba9">
+<img width="717" height="163" alt="Image" src="https://github.com/user-attachments/assets/44acf1e5-3985-4f35-a056-8fb62b55643b" />
 
 <br>
 <br>
@@ -107,7 +107,7 @@
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<img width="731" alt="VM2 vnet" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/d591d9b0-ce68-4e74-a466-cdd34886c74b">\
+<img width="731" height="221" alt="Image" src="https://github.com/user-attachments/assets/46bfc1f1-2f09-4820-b509-887a1c4ae118" />
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
@@ -125,14 +125,14 @@
 
 - First login to the Client-01 using it's public ip address and remote desktop
 
-<img width="993" alt="client 1 public ip" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/c12a5300-fd26-4ae7-b15b-b4fee053bece">
+<img width="993" height="294" alt="Image" src="https://github.com/user-attachments/assets/2765f2aa-d852-4890-a481-403c4a8010e3" />
 
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<img width="297" alt="remote desktop first login" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/97467245-a6b9-4922-a668-71fdf6f77989">
+<img width="297" height="185" alt="Image" src="https://github.com/user-attachments/assets/aa759191-afae-4a13-ba1b-56dcab7551e2" />
 
 <br>
 <br>
@@ -145,7 +145,7 @@
 <p><strong> Find DC-01's private ip address in the Azure Portal and copy it. Proceed to Client-01 and open the terminal and type "ping -t (DC-01 private ip address)" </strong></p>
 
 
-<img width="668" alt="perpetual ping" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/d83a1cbf-2619-4382-bc3c-7025ed246119">
+<img width="668" height="376" alt="Image" src="https://github.com/user-attachments/assets/785d80c6-a3dd-48f4-ba98-fead2bcf1dcd" />
 
 
 <br>
@@ -161,7 +161,7 @@
 
 <br>
 
-<img width="668" alt="firewall" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/818f7ebe-2ec3-4bd5-b59a-2bc55c24a567">
+<img width="1297" height="809" alt="Image" src="https://github.com/user-attachments/assets/b077d29a-0a5a-47df-afe1-82c68152a78a" />
 
 <br>
 
@@ -171,7 +171,7 @@
 
 <p><strong> Now once the traffic has been enabled, you can check back with Client-01 and notice that the ping is now successful.</strong> </p>
 
-<img width="334" alt="ping 2" src="https://github.com/chinhanjohnlee/ad-and-azure-setup/assets/158519921/ede5ce46-2d9d-49c6-82d7-5afc9796294b">
+<img width="334" height="380" alt="Image" src="https://github.com/user-attachments/assets/55bd1bd7-4d6e-49af-864e-b264731931a1" />
 
 <h2> Final Thoughts </h2>
 
